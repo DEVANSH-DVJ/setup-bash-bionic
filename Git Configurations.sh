@@ -10,11 +10,14 @@ echo "[alias]
 " >> ~/.gitconfig;
 
 ## Test
-cat ~/.gitconfig;
+# cat ~/.gitconfig;
 
 ## For ssh setup
 ssh-keygen -t rsa -b 4096 -C "devansh.dvj@gmail.com";
 ssh-add ~/.ssh/id_rsa;
 sudo apt -y install xclip;
 xclip -sel clip < ~/.ssh/id_rsa.pub;
+## The ssh rsa key has been copied to the clipboard, paste it while creating a new ssh key at https://github.com/settings/keys.
+
+## No need to reboot
 
