@@ -1,0 +1,6 @@
+Install Ubuntu 18.04.4 (Bionic Beaver)
+
+sudo apt update;
+sudo apt -y upgrade;
+
+sudo reboot;
