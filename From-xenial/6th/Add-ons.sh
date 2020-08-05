@@ -1,5 +1,3 @@
-source ~/virtualenvs/3.8.2/bin/activate;
-
 sudo apt update;
 cd ~;
 wget https://atom.io/download/deb -O atom-amd64.deb;
@@ -32,6 +30,6 @@ sudo rm -rf Foxit*;
 sudo snap install telegram-desktop;
 sudo snap install discord;
 
-sudo apt install -y texlive-full;
+sudo apt -y install texlive-full;
 sudo snap install okular;
-sudo apt install -y vlc;
+sudo apt -y install vlc;
