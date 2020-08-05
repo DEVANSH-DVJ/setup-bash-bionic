@@ -20,4 +20,3 @@ xclip -sel clip < ~/.ssh/id_rsa.pub;
 ## The ssh rsa key has been copied to the clipboard, paste it while creating a new ssh key at https://github.com/settings/keys.
 
 ## No need to reboot
-

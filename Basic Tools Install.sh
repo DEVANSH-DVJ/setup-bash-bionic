@@ -2,6 +2,7 @@ sudo apt -y install git;
 sudo apt -y install tree;
 sudo apt -y install terminator;
 sudo apt -y install bash-completion;
+sudo apt -y install flake8 isort;
 
 sudo apt -y remove vim-tiny;
 sudo apt -y install vim;

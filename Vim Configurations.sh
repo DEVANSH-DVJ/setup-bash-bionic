@@ -16,4 +16,3 @@ highlight ExtraWhitespace ctermbg=red guibg=yellow
 match ExtraWhitespace /\s\+$/
 " > ~/.vimrc;
 cat ~/.vimrc;
-

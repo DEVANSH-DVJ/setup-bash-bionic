@@ -23,4 +23,3 @@ echo "alias rmo='sudo rm -rf /etc/apt/sources.list.d/opera*;'
 
 ## Reboot once to be safe
 # sudo reboot;
-

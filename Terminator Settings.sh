@@ -22,4 +22,3 @@
 ##     Solid Background
 ##   Scrolling:
 ##     Infinte scrolling - True
-
