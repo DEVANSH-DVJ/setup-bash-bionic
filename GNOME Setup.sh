@@ -8,7 +8,7 @@ touch ~/Templates/"Untitled Document";
 sudo apt -y install dconf gnome-tweak-tool;
 ## I would use "Workspace Matrix" GNOME extension (can be installed from the Ubuntu Software)
 ## Use org.desktop.wm.keybindings and org.mutter.keybindings to make changes
-## Use Extensions in Tweaks (Gnome Tweaks) to change the settings of Workspaces, Clock, Calender, Font Size and more
+## Use Extensions in Tweaks (Gnome Tweaks) to change the settings of Workspaces, Clock, Calender, Font Size and most importantly Right click on Touchpad.
 
 ## Reboot once to check the conditions
 # sudo reboot;

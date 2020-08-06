@@ -15,8 +15,6 @@ sudo add-apt-repository "deb [arch=i386,amd64] https://deb.opera.com/opera-stabl
 sudo apt update;
 sudo apt -y install opera-stable;
 sudo rm -rf /etc/apt/sources.list.d/opera*;
-echo "alias rmo='sudo rm -rf /etc/apt/sources.list.d/opera*;'
-" >> ~/.bashrc;
 ## Test Opera once
 # opera;
 ## Get the bookmarks and customize the settings
