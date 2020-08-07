@@ -21,7 +21,7 @@ git checkout melodic-devel;
 echo "source ~/catkin_ws/devel/setup.bash;
 source ~/catkin_ws/src/robosub/auv_utils/src/utility/bash/robosub_bash;
 source ~/catkin_ws/src/robosub/auv_utils/src/utility/bash/robosub_aliases;
-" >> ~/.bashrc;
+alias wrapper.py='python3 ~/catkin_ws/src/robosub/auv_utils/src/utility/wrapper/wrapper.py'" >> ~/.bashrc;
 source ~/.bashrc;
 
 sudo apt -y install libfftw3-dev;
