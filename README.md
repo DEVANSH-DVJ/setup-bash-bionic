@@ -24,15 +24,16 @@ Order: (Yet to be Tested)
    2. Check each environment during Step 5.
 5. Add-ons
    1. Run Add-ons.sh
-   2. Check packages in atom and VS code
-   3. While the big installs happen,
+   2. Check packages in Atom
+   3. Install Extensions for VSCode
+   4. While the big installs happen,
       1. Install and configure Workspace Matrix from Ubuntu Software
       2. Configure gnome-tweak-tool (gnome/)
       3. Configure dconf (dconf/)
       4. Configure the VPN
       5. Login into Microsoft Teams
-   4. Once the driver is installed, configure the changes.
-   5. **Reboot**
+   5. Once the driver is installed, configure the changes.
+   6. **Reboot**
 6. Dockers
    1. Run docker.sh
    2. Setup all the necessary dockers
