@@ -1,0 +1,17 @@
+{
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "editor.fontSize": 15,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+    "timeline.excludeSources": [],
+    "trailing-spaces.trimOnSave": true,
+    "python.venvPath": "~/virtualenvs",
+}
