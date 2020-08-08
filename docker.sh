@@ -13,3 +13,10 @@ sudo groupadd docker;
 sudo usermod -aG docker $USER;
 newgrp docker;
 docker run hello-world;
+
+## WARNING: Error loading config file: /home/user/.docker/config.json - stat /home/user/.docker/config.json: permission denied
+## If you face this warning then
+# sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+# sudo chmod g+rwx "$HOME/.docker" -R
+
+## Refer https://docs.docker.com/engine/install/ubuntu/ and https://docs.docker.com/engine/install/linux-postinstall/
