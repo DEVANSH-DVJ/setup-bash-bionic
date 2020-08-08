@@ -36,6 +36,6 @@ Order: (Yet to be Tested)
    6. **Reboot**
 6. Dockers
    1. Run docker.sh
-   2. Setup all the necessary dockers
+   2. Setup all the necessary dockers from cse_dockers.sh
 
 Note: Run all bash scripts from the base directory of this repo.
