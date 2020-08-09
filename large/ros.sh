@@ -5,9 +5,9 @@ sudo apt -y install ros-melodic-desktop-full;
 sudo rosdep init;
 sudo rosdep update;
 sudo rosdep fix-permissions;
-echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc;
-source ~/.bashrc;
+echo "source /opt/ros/melodic/setup.bash;" >> ~/.bashrc;
 sudo apt -y install python-rosinstall python-rosinstall-generator python-wstool build-essential;
+source ~/.bashrc;
 
 mkdir -p ~/catkin_ws/src;
 cd ~/catkin_ws;
@@ -30,8 +30,7 @@ sudo apt -y install libfftw3-dev;
 sudo apt -y install ros-melodic-bfl;
 sudo apt -y install libpcap-dev;
 sudo apt -y install libpugixml-dev;
+sudo apt -y install libyaml-cpp-dev;
 sudo apt -y install qt4-default;
 sudo apt -y install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control;
-
-cd ~/catkin_ws;
-catkin_make;
+source ~/.bashrc;
