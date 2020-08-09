@@ -12,15 +12,16 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 sudo apt update;
 sudo apt -y install sublime-text;
 sudo apt -y install sublime-merge;
+sudo apt -y install pdfsam;
 
-sudo apt -y install openjdk-8-jre libopenjfx-jni libopenjfx-java openjfx;
-sudo echo "JAVA_HOME=\"/usr/lib/jvm/java-8-openjdk-amd64\"" >> /etc/environment;
-source /etc/environment;
-echo $JAVA_HOME;
-wget https://github.com/torakiki/pdfsam/releases/download/v3.1.0.RELEASE/pdfsam-3.1.0.RELEASE-1_all.deb -O pdfsam-3.1.0.RELEASE-1_all.deb;
-sudo dpkg -i pdfsam-3.1.0.RELEASE-1_all.deb;
-sudo apt install -fy;
-sudo rm -rf pdfsam-3.1.0.RELEASE-1_all.deb;
+# sudo apt -y install openjdk-8-jre libopenjfx-jni libopenjfx-java openjfx;
+# echo "JAVA_HOME=\"/usr/lib/jvm/java-8-openjdk-amd64\"" | sudo tee -a /etc/environment;
+# source /etc/environment;
+# echo $JAVA_HOME;
+# wget https://github.com/torakiki/pdfsam/releases/download/v3.1.0.RELEASE/pdfsam-3.1.0.RELEASE-1_all.deb -O pdfsam-3.1.0.RELEASE-1_all.deb;
+# sudo dpkg -i pdfsam-3.1.0.RELEASE-1_all.deb;
+# sudo apt install -fy;
+# sudo rm -rf pdfsam-3.1.0.RELEASE-1_all.deb;
 
 # wget http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/linux/2.x/2.4/en_us/FoxitReader2.4.1.0609_Server_x64_enu_Setup.run.tar.gz;
 # tar xzvf FoxitReader*.tar.gz;
