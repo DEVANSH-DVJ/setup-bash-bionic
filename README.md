@@ -32,8 +32,8 @@ Order: (Yet to be Tested)
       3. Configure dconf (dconf/)
       4. Configure the VPN
       5. Login into Microsoft Teams
-   5. Once the driver is installed, configure the changes.
-   6. **Reboot**
+   5. **Reboot**
+   6. Configure the GPU driver settings.
 6. Dockers
    1. Run docker.sh
    2. Setup all the necessary dockers from cse_dockers.sh
