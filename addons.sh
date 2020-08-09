@@ -1,10 +1,10 @@
-bash ./gnome/Install.sh;
-bash ./dconf/Install.sh;
+bash ./gnome/install.sh;
+bash ./dconf/install.sh;
 
-bash ./atom/Install.sh;
-bash ./atom/Configurations.sh;
+bash ./atom/install.sh;
+bash ./atom/configurations.sh;
 
-bash ./vscode/Install.sh;
+bash ./vscode/install.sh;
 
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -;
 sudo apt -y install apt-transport-https;
@@ -28,8 +28,8 @@ sudo rm -rf pdfsam-3.1.0.RELEASE-1_all.deb;
 # sudo ./FoxitReader.*.run;
 # sudo rm -rf Foxit*;
 
-bash ./Microsoft Teams.sh;
-bash ./VPN Setup.sh;
+bash microsoft_teams.sh;
+bash vpn_setup.sh;
 
 sudo add-apt-repository ppa:pinta-maintainers/pinta-stable # You get an ENTER prompt
 # sudo apt update; # Not needed
@@ -39,6 +39,6 @@ sudo snap install telegram-desktop;
 sudo snap install discord;
 # sudo apt -y install okular;
 
-bash ./big-installs/NVIDIA.sh;
-bash ./big-installs/texlive.sh;
-bash ./big-installs/ros.sh;
+bash ./large/nvidia.sh;
+bash ./large/texlive.sh;
+bash ./large/ros.sh;

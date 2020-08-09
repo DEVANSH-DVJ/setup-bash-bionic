@@ -5,11 +5,11 @@ sudo apt -y install python-argcomplete python3-argcomplete;
 sudo apt -y install flake8 isort;
 sudo apt -y install pylint clang-format;
 
-bash ./vim/Install.sh;
-bash ./vim/Configurations.sh;
+bash ./vim/install.sh;
+bash ./vim/configurations.sh;
 
-bash ./browsers/Chrome.sh;
-bash ./browsers/Opera.sh;
+bash ./browsers/chrome.sh;
+bash ./browsers/opera.sh;
 
 sudo apt -y install curl;
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -;
