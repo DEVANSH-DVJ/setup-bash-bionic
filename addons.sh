@@ -30,6 +30,7 @@ sudo rm -rf pdfsam-3.1.0.RELEASE-1_all.deb;
 
 bash microsoft_teams.sh;
 bash vpn_setup.sh;
+bash zoom.sh;
 
 sudo add-apt-repository ppa:pinta-maintainers/pinta-stable # You get an ENTER prompt
 # sudo apt update; # Not needed
