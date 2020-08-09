@@ -15,5 +15,3 @@ sudo apm install latex-autocomplete;
 sudo apm install latextools;
 sudo apm install minimap;
 sudo apm install spacegray-atom-dark-syntax;
-
-cp ./atom/config.cson ~/.atom/;

@@ -1,5 +1,3 @@
-cd ~;
-
 bash ./gnome/Install.sh;
 bash ./dconf/Install.sh;
 

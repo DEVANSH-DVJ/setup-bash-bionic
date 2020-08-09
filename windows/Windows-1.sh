@@ -1,4 +1,5 @@
-mkdir /home/devansh/Windows;
+mkdir /home/devansh/Windows-C;
+mkdir /home/devansh/Windows-D;
 
 echo '#!/bin/sh -e
 #
@@ -13,7 +14,8 @@ echo '#!/bin/sh -e
 #
 # By default this script does nothing.
 
-mount -t ntfs /dev/sda4 /home/devansh/Windows
+mount -t ntfs /dev/sda1 /home/devansh/Windows-D
+mount -t ntfs /dev/nvme0n1p3 /home/devansh/Windows-C
 
 exit 0' | sudo tee /etc/rc.local;
 sudo chmod +x /etc/rc.local;
