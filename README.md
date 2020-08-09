@@ -24,8 +24,8 @@ Order: (Yet to be Tested)
    2. Check each environment during Step 5.
 5. Add-ons
    1. Run Add-ons.sh
-   2. Check packages in Atom
-   3. Install Extensions for VSCode
+   2. Check packages and update config.cson in Atom
+   3. Install Extensions and settings.json update for VSCode
    4. While the big installs happen,
       1. Install and configure Workspace Matrix from Ubuntu Software
       2. Configure gnome-tweak-tool (gnome/)
