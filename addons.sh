@@ -29,9 +29,9 @@ sudo apt -y install pdfsam;
 # sudo ./FoxitReader.*.run;
 # sudo rm -rf Foxit*;
 
-bash microsoft_teams.sh;
+#bash microsoft_teams.sh;
 bash vpn_setup.sh;
-bash zoom.sh;
+#bash zoom.sh;
 
 sudo add-apt-repository ppa:pinta-maintainers/pinta-stable # You get an ENTER prompt
 # sudo apt update; # Not needed

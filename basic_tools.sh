@@ -24,6 +24,7 @@ sudo apt -y install yarn;
 
 echo "
 alias sb='source ~/.bashrc';
+alias rm='rm -i';
 " >> ~/.bashrc;
 
 ## Reboot once to be safe
