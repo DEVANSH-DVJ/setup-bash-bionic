@@ -25,17 +25,14 @@ Order: (Yet to be Tested)
 5. Add-ons
    1. Run addons.sh
    2. Check packages and update config.cson in Atom
-   3. Install Extensions and settings.json update for VSCode
+   3. Install Extensions and update settings.json for VSCode
    4. While the large installs happen,
       1. Install and configure Workspace Matrix from Ubuntu Software
       2. Configure gnome-tweak-tool (gnome/)
       3. Configure dconf (dconf/)
       4. Configure the VPN
-      5. Login into Microsoft Teams
+      5. Setup Microsoft Teams, Zoom, PDFsam, Telegram, Discord
    5. **Reboot**
    6. Configure the GPU driver settings.
-6. Dockers
-   1. Run docker.sh
-   2. Setup all the necessary dockers from cse_dockers.sh
 
 Note: Run all bash scripts from the base directory of this repo.

@@ -1,17 +1,188 @@
 {
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "editor.fontSize": 15,
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "[shellscript]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.minimap.enabled": false,
-    "files.insertFinalNewline": true,
-    "timeline.excludeSources": [],
-    "trailing-spaces.trimOnSave": true,
-    "python.venvPath": "~/virtualenvs",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontSize": 15,
+  "editor.largeFileOptimizations": false,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "timeline.excludeSources": [],
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.visible": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "bashBeautify.tabSize": 2,
+
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+
+  // "cSpell.enableFiletypes": ["!python"],
+  "cSpell.userWords": [
+    "BSDF",
+    "Fibo",
+    "Outlab",
+    "Signup",
+    "Thue",
+    "algo",
+    "amssymb",
+    "amsthm",
+    "arange",
+    "changepwd",
+    "currentuserid",
+    "devansh",
+    "downlevel",
+    "dtype",
+    "eevee",
+    "enumitem",
+    "esint",
+    "favicon",
+    "fname",
+    "groupby",
+    "imgs",
+    "imshow",
+    "inorder",
+    "itemsep",
+    "moodle",
+    "mplot",
+    "ncols",
+    "normalise",
+    "nrows",
+    "numpy",
+    "organising",
+    "otypes",
+    "pastchecks",
+    "plagsample",
+    "plagzip",
+    "profileid",
+    "psycopg",
+    "pyplot",
+    "robosub",
+    "roscore",
+    "rospy",
+    "scipy",
+    "serializers",
+    "sinc",
+    "sqlite",
+    "textcolor",
+    "tokenkey",
+    "tokenmanager",
+    "unplag",
+    "upassword",
+    "userid",
+    "vectorize",
+    "visualise",
+    "xlabel",
+    "xlim",
+    "xmax",
+    "xmin",
+    "xticks",
+    "ylabel",
+    "ylim",
+    "yticklabels",
+    "yticks",
+    "zlabel",
+    "zlim",
+    "zorder"
+  ],
+
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "html.format.endWithNewline": true,
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "[java]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "java.autobuild.enabled": false,
+  "java.dependency.autoRefresh": false,
+  "java.dependency.syncWithFolderExplorer": false,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.synctex(busy)",
+    "*.synctex",
+    "*.synctex.gz(busy)",
+    "*.synctex.gz",
+    "*.nav"
+  ],
+
+  "python.venvPath": "~/virtualenvs",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  // "python.linting.flake8Args": ["--max-line-length=120"],
+  "python.linting.flake8Args": ["--max-line-length=150", "--ignore=E731,F841"],
+  // "python.formatting.autopep8Args": ["--max-line-length=120"],
+  "python.formatting.autopep8Args": ["--max-line-length=150", "--ignore=E731"],
+  "python.languageServer": "Microsoft",
+  "jupyter.askForKernelRestart": false,
+
+  "[scss]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
+

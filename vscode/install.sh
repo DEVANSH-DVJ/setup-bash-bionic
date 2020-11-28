@@ -6,11 +6,21 @@ sudo apt update;
 sudo apt -y install code;
 
 ## Extensions:
+# Beautify
 # Bash Beautify
-# Docker
+# C/C++
+# C++ Intellisense
+# Clang-Format
+# Code-Runner
+# Code Spell Checker
+# ES Lint
+# Excel Viewer
 # Git History
+# Jupyter
+# LaTeX Workshop
 # Markdown Shortcuts
+# Prettier - Code formatter
 # Python
-# Remote Development
 # shell-format
 # Trailing Spaces
+# vscode-icons
