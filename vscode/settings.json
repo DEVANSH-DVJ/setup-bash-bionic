@@ -49,6 +49,7 @@
     "esint",
     "favicon",
     "fname",
+    "gmail",
     "groupby",
     "imgs",
     "imshow",
@@ -61,10 +62,13 @@
     "nrows",
     "numpy",
     "organising",
+    "orgs",
     "otypes",
     "pastchecks",
     "plagsample",
     "plagzip",
+    "plotly",
+    "plotlyjs",
     "profileid",
     "psycopg",
     "pyplot",
@@ -74,6 +78,7 @@
     "scipy",
     "serializers",
     "sinc",
+    "smtplib",
     "sqlite",
     "textcolor",
     "tokenkey",
@@ -85,6 +90,7 @@
     "visualise",
     "xlabel",
     "xlim",
+    "xlrd",
     "xmax",
     "xmin",
     "xticks",
@@ -183,6 +189,15 @@
 
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "window.zoomLevel": 0,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   }
 }
-

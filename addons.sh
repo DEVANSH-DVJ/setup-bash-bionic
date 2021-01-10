@@ -25,6 +25,6 @@ sudo snap install discord;
 # sudo apt -y install okular;
 
 sudo apt -y upgrade;
-bash ./large/nvidia.sh;
-bash ./large/texlive.sh;
-bash ./large/ros.sh;
+# bash ./large/nvidia.sh;
+# bash ./large/texlive.sh;
+# bash ./large/ros.sh;

@@ -29,15 +29,9 @@ pip install wheel pathlib;
 pip install numpy scipy matplotlib ipython pyyaml rospkg;
 deactivate;
 
-source unplag/bin/activate;
-pip install --upgrade pip;
-pip install wheel pathlib;
-deactivate;
-
 echo "alias 2='source ~/virtualenvs/2.7.12/bin/activate';
 alias 3='source ~/virtualenvs/3.8.6/bin/activate';
 alias auv='source ~/virtualenvs/auv/bin/activate';
-alias up='source ~/virtualenvs/unplag/bin/activate';
 alias 0='deactivate';
 alias jp='source ~/virtualenvs/3.8.6/bin/activate; jupyter-notebook;';
 alias pm='python manage.py makemigrations; python manage.py migrate; python manage.py runserver';

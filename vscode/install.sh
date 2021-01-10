@@ -6,8 +6,9 @@ sudo apt update;
 sudo apt -y install code;
 
 ## Extensions:
-# Beautify
+# AWK
 # Bash Beautify
+# Beautify
 # C/C++
 # C++ Intellisense
 # Clang-Format
