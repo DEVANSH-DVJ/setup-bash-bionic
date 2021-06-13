@@ -16,6 +16,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -;
 sudo apt -y install nodejs;
 
 sudo apt -y install gcc g++ make;
+sudo apt -y install clang-format-10;
 
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -;
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list;
