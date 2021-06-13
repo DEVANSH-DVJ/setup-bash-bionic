@@ -17,33 +17,46 @@
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "terminal.integrated.shell.linux": "/bin/bash",
   "timeline.excludeSources": [],
+  "terminal.integrated.tabs.enabled": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.statusBar.visible": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
   "bashBeautify.tabSize": 2,
 
   "code-runner.runInTerminal": true,
   "code-runner.saveFileBeforeRun": true,
 
-  // "cSpell.enableFiletypes": ["!python"],
+  "cSpell.language": "en,en-GB,en-US",
   "cSpell.userWords": [
+    "Ankit",
     "BSDF",
     "Fibo",
+    "Harshit",
+    "IITB",
+    "Misra",
+    "OPENGL",
     "Outlab",
+    "Outof",
+    "RGBA",
+    "Richeek",
     "Signup",
+    "Struct",
     "Thue",
+    "Vimba",
     "algo",
     "amssymb",
     "amsthm",
     "arange",
+    "astropy",
+    "atmost",
     "changepwd",
+    "cout",
     "currentuserid",
     "devansh",
     "downlevel",
     "dtype",
+    "ecsv",
     "eevee",
     "enumitem",
     "esint",
@@ -55,6 +68,9 @@
     "imshow",
     "inorder",
     "itemsep",
+    "itertools",
+    "matplotlib",
+    "mollweide",
     "moodle",
     "mplot",
     "ncols",
@@ -71,11 +87,15 @@
     "plotlyjs",
     "profileid",
     "psycopg",
+    "pygame",
     "pyplot",
     "robosub",
     "roscore",
+    "rospkg",
     "rospy",
     "scipy",
+    "seaborn",
+    "sectionfont",
     "serializers",
     "sinc",
     "smtplib",
@@ -103,6 +123,8 @@
     "zorder"
   ],
 
+  "clang-format.executable": "clang-format-10",
+
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
@@ -118,13 +140,14 @@
 
   "git.autofetch": true,
   "git.confirmSync": false,
+  "gitlens.defaultTimeFormat": "HH:mm",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
 
   "[java]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
   "java.autobuild.enabled": false,
-  "java.dependency.autoRefresh": false,
-  "java.dependency.syncWithFolderExplorer": false,
 
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -137,6 +160,7 @@
   },
 
   "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.bibtex-format.tab": "4 spaces",
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.autoClean.run": "onBuilt",
   "latex-workshop.latex.clean.fileTypes": [
@@ -166,16 +190,23 @@
     "*.nav"
   ],
 
+  "prolog.executablePath": "/usr/bin/prolog",
+  "[prolog]": {
+    "editor.defaultFormatter": "arthurwang.vsc-prolog"
+  },
+
   "python.venvPath": "~/virtualenvs",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
-  // "python.linting.flake8Args": ["--max-line-length=120"],
-  "python.linting.flake8Args": ["--max-line-length=150", "--ignore=E731,F841"],
-  // "python.formatting.autopep8Args": ["--max-line-length=120"],
-  "python.formatting.autopep8Args": ["--max-line-length=150", "--ignore=E731"],
+  "python.linting.flake8Args": ["--max-line-length=80", "--ignore=F405, F403"],
+
+  "python.formatting.autopep8Args": [
+    "--max-line-length=80",
+    "--ignore=F405, F403"
+  ],
   "python.languageServer": "Microsoft",
   "jupyter.askForKernelRestart": false,
 
@@ -190,14 +221,21 @@
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
-  "window.zoomLevel": 0,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  }
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+
+  "vhdl.formatter.case.keyword": "LowerCase",
+  "vhdl.formatter.case.typename": "LowerCase",
+  "vhdl.formatter.insertFinalNewline": true,
+  "vhdl.formatter.align.procedure": true,
+  "vhdl.formatter.align.port": true,
+  "vhdl.formatter.align.function": true
 }
+
