@@ -6,7 +6,6 @@ sudo apt update;
 sudo apt -y install python3.8 python3.8-venv python3.8-tk python-tk;
 python3.8 -m venv 3.8;
 python3.8 -m venv auv;
-python3.8 -m venv unplag;
 
 sudo apt -y install virtualenv;
 virtualenv -p python2.7 2.7;
