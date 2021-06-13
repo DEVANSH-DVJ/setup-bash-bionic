@@ -19,10 +19,10 @@ source devel/setup.bash;
 
 cd src;
 git clone git@github.com:auv-iitb/robosub.git;
-cd robosub;
+git clone git@github.com:auv-iitb/lnt-rov.git;
 echo "source ~/catkin_ws/devel/setup.bash;
-source ~/catkin_ws/src/robosub/auv_utils/src/utility/bash/robosub_bash;
-source ~/catkin_ws/src/robosub/auv_utils/src/utility/bash/robosub_aliases;
+# source ~/catkin_ws/src/robosub/auv_utils/src/utility/bash/robosub_bash;
+# source ~/catkin_ws/src/robosub/auv_utils/src/utility/bash/robosub_aliases;
 alias wrapper.py='python ~/catkin_ws/src/robosub/auv_utils/src/utility/wrapper/wrapper.py';
 alias cm6='cm -j6';
 " >> ~/.bashrc;
