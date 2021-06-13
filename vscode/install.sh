@@ -17,11 +17,20 @@ sudo apt -y install code;
 # ES Lint
 # Excel Viewer
 # Git History
+# Git Lens
 # Jupyter
 # LaTeX Workshop
 # Markdown Shortcuts
+# Matlab
+# Modern VHDL
 # Prettier - Code formatter
+# Pylance
 # Python
+# ROS
 # shell-format
 # Trailing Spaces
+# VHDL
+# VHDL Formatter
+# VHDL Language Server
+# VSC-Prolog
 # vscode-icons
