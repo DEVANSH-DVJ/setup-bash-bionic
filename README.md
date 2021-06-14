@@ -1,7 +1,7 @@
 # setup-bash-bionic
 Bash scripts for setting up the environment in Ubuntu 18.04.5 Bionic Beaver
 
-Order: (Yet to be Tested)
+Order:
 1. Primary Setup
    1. Make changes to the Settings (settings/)
    2. Now change server in Softwares & Updates
