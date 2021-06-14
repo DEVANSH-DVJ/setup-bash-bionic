@@ -3,7 +3,7 @@ sudo apt -y install tree;
 sudo apt -y install bash-completion;
 sudo apt -y install python-argcomplete python3-argcomplete;
 sudo apt -y install flake8 isort;
-sudo apt -y install pylint clang-format;
+sudo apt -y install pylint clang-format-10;
 
 bash ./vim/install.sh;
 bash ./vim/configurations.sh;
@@ -16,7 +16,6 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -;
 sudo apt -y install nodejs;
 
 sudo apt -y install gcc g++ make;
-sudo apt -y install clang-format-10;
 
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -;
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list;
