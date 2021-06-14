@@ -23,7 +23,6 @@ sudo apt -y install vlc;
 sudo snap install telegram-desktop;
 sudo snap install discord;
 sudo snap install --classic heroku;
-# sudo apt -y install okular;
 
 sudo apt -y upgrade;
 # bash ./large/nvidia.sh;
