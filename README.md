@@ -4,8 +4,9 @@ Bash scripts for setting up the environment in Ubuntu 18.04.5 Bionic Beaver
 Order: (Yet to be Tested)
 1. Primary Setup
    1. Make changes to the Settings (settings/)
-   2. Run primary_setup.sh
-   3. Continue to Step 2
+   2. Now change server in Softwares & Updates
+   3. Run primary_setup.sh
+   4. Continue to Step 2
 2. Windows connection
    1. Run windows/windows_1.sh
    2. Run lid_close_bug.sh, this will automatically **Reboot**.
