@@ -33,7 +33,7 @@ sudo apt -y install ros-melodic-bfl;
 sudo apt -y install libpcap-dev;
 sudo apt -y install libpugixml-dev;
 sudo apt -y install libyaml-cpp-dev;
-sudo apt -y install qt5-default;
+sudo apt -y install qt4-default;
 sudo apt -y install libeigen3-dev;
 sudo apt -y install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control;
 source ~/.bashrc;
