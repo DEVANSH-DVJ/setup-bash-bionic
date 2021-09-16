@@ -10,6 +10,7 @@ source ~/.bashrc;
 sudo rosdep init;
 sudo rosdep update;
 sudo rosdep fix-permissions;
+rosdep update;
 
 source ~/.bashrc;
 mkdir -p ~/catkin_ws/src;
