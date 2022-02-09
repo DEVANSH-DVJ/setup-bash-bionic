@@ -18,7 +18,7 @@ deactivate;
 source 3.8/bin/activate;
 pip install --upgrade pip;
 pip install wheel pathlib;
-pip install Django numpy scipy matplotlib ipython jupyter pandas bs4 requests astropy wget lxml xlrd pyyaml flake8 pylint autopep8;
+pip install numpy scipy matplotlib ipython jupyter pandas requests wget flake8 pylint autopep8;
 deactivate;
 
 echo "alias 2='source ~/virtualenvs/2.7/bin/activate';
