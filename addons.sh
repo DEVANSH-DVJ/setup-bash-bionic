@@ -21,8 +21,6 @@ sudo add-apt-repository ppa:pinta-maintainers/pinta-stable # You get an ENTER pr
 sudo apt -y install pinta;
 sudo apt -y install vlc;
 sudo snap install telegram-desktop;
-sudo snap install discord;
-sudo snap install --classic heroku;
 
 sudo apt -y upgrade;
 # bash ./large/nvidia.sh;
