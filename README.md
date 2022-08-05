@@ -1,7 +1,9 @@
 # setup-bash-bionic
+
 Bash scripts for setting up the environment in Ubuntu 18.04.5 Bionic Beaver
 
 Order:
+
 1. Primary Setup
    1. Make changes to the Settings (settings/)
    2. Now change server in Softwares & Updates
@@ -16,7 +18,7 @@ Order:
 3. Basic Tools
    1. Run git.sh and configure ssh key.
    2. Run basic_tools.sh
-   3. Once terminator is installed, customize the Prefernces
+   3. Once terminator is installed, customize the Preferences
    4. Once Chrome is installed, sync the account and customize the settings.
    5. Once Opera is installed, get the bookmarks and customize the settings
    6. **Reboot** and move to Step 4
