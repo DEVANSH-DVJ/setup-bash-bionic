@@ -1,4 +1,4 @@
-"*":
+echo '"*":
   "atom-beautify":
     c:
       default_beautifier: "clang-format"
@@ -81,3 +81,5 @@
     "variable.parameter.function.latex"
     "constant.other.reference.latex"
   ]
+' > ~/.atom/config.cson;
+
